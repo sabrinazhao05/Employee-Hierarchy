@@ -1,6 +1,3 @@
-//DISPLAY 15.3 Interface for the Derived Class HourlyEmployee
-//This is the header file hourlyemployee.h. 
-//This is the interface for the class HourlyEmployee.
 #ifndef HOURLYEMPLOYEE_H
 #define HOURLYEMPLOYEE_H
 
