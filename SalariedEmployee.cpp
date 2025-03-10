@@ -1,8 +1,3 @@
-//Implementation for the Derived Class SalariedEmployee 
-//This is the file salariedemployee.cpp.
-//This is the implementation for the class SalariedEmployee.
-//The interface for the class SalariedEmployee is in 
-//the header file salariedemployee.h.
 #include <iostream>
 #include <string>
 #include "SalariedEmployee.h"
@@ -10,15 +5,12 @@ using namespace std;
 
 SalariedEmployee::SalariedEmployee( ) : Employee( ), salary(0)
 {
-    //deliberately empty
-    //cout <<"SalariedEmployee() called\n";
 }
 
 SalariedEmployee::SalariedEmployee(string the_name, string the_number,
                                   double the_weekly_salary)
                      : Employee(the_name, the_number), salary(the_weekly_salary)
 {
-	//cout <<"SalariedEmployee ("<<the_name <<","<<the_number<<","<<the_weekly_salary<<") called\n";
 }
 
 // get_salary() - get the salary
