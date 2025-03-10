@@ -1,6 +1,3 @@
-//DISPLAY 15.4 Interface for the Derived Class SalariedEmployee
-//This is the header file salariedemployee.h. 
-//This is the interface for the class SalariedEmployee.
 #ifndef SALARIEDEMPLOYEE_H
 #define SALARIEDEMPLOYEE_H
 
