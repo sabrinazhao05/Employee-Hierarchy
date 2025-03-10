@@ -1,8 +1,3 @@
-//Implementation for the Derived Class HourlyEmployee 
-//This is the file: hourlyemployee.cpp 
-//This is the implementation for the class HourlyEmployee.
-//The interface for the class HourlyEmployee is in 
-//the header file hourlyemployee.h.
 #include <string>
 #include <iostream>
 #include "HourlyEmployee.h"
