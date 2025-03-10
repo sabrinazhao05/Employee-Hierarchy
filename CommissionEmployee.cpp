@@ -5,13 +5,9 @@ using namespace std;
 
 CommissionEmployee::CommissionEmployee() : Employee(), sales(0.0), commission(0.0)
 {
-    // Default constructor for CommissionEmployee
 }
 
-// ToDo: implement the constructor, remember to call base class constructor
 CommissionEmployee::CommissionEmployee(string name, string SSN, double sales, double commission):Employee(name, SSN), sales(sales), commission(commission){
-	// deliberately empty
-	// cout << "CommissionEmployee(" << name << "," << SSN << "," << sales << "," << commission << ")\n"; 
 }
 
 double CommissionEmployee::get_sales() const
